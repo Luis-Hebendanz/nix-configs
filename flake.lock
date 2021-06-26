@@ -1,0 +1,97 @@
+{
+  "nodes": {
+    "luispkgs": {
+      "locked": {
+        "lastModified": 1624721845,
+        "narHash": "sha256-qFkBRmrsm445OnfKIcq2hwnVe60hvcvLoONX5Oa4+lw=",
+        "owner": "Luis-Hebendanz",
+        "repo": "nixpkgs",
+        "rev": "c31b55ace89e371611bba6d21b83ef0584394e0d",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Luis-Hebendanz",
+        "ref": "luispkgs",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nix-ld": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "utils": "utils"
+      },
+      "locked": {
+        "lastModified": 1619081966,
+        "narHash": "sha256-QYPg8wPpq7q5Xd1jW17Lh36iKFSsVkN/gWYoQRv2XoU=",
+        "owner": "Mic92",
+        "repo": "nix-ld",
+        "rev": "cac5bd577da26aefdabc742340a156414ac08890",
+        "type": "github"
+      },
+      "original": {
+        "owner": "Mic92",
+        "repo": "nix-ld",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1622516815,
+        "narHash": "sha256-ZjBd81a6J3TwtlBr3rHsZspYUwT9OdhDk+a/SgSEf7I=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "7e9b0dff974c89e070da1ad85713ff3c20b0ca97",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "21.05",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nur": {
+      "locked": {
+        "lastModified": 1624228123,
+        "narHash": "sha256-dCbiujQpJD2LZw6sRvPoRNnjs0mkzdMgbev1lCl9XcM=",
+        "owner": "nix-community",
+        "repo": "NUR",
+        "rev": "b3ad64dfc5a2fdca8ab4a555e331cc3f3fd456a5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-community",
+        "repo": "NUR",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "luispkgs": "luispkgs",
+        "nix-ld": "nix-ld",
+        "nixpkgs": "nixpkgs",
+        "nur": "nur"
+      }
+    },
+    "utils": {
+      "locked": {
+        "lastModified": 1610051610,
+        "narHash": "sha256-U9rPz/usA1/Aohhk7Cmc2gBrEEKRzcW4nwPWMPwja4Y=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "3982c9903e93927c2164caa727cd3f6a0e6d14cc",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
